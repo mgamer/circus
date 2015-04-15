@@ -1,0 +1,168 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE490B7EBF6CD8A38042AEC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215F92123D62B29A471A230 /* AppDelegate.swift */; };
+		E78662BFD1D572DB003E2E7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D56EC56825A08781EDA1DE /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0463C77E995EC77431ADDA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1215F92123D62B29A471A230 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67CE347ED08B93CA499EB6AC /* circus.gyp */ = {isa = PBXFileReference; explicitFileType = sourcecode; path = circus.gyp; sourceTree = "<group>"; };
+		935856344585392FDEB12A42 /* Circus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D56EC56825A08781EDA1DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		544155E3CC300F8F6B97DA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DEDC455CB14FE4871BAE0DD /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				67CE347ED08B93CA499EB6AC /* circus.gyp */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		B1A67F1D735C81210AA7D4D3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1215F92123D62B29A471A230 /* AppDelegate.swift */,
+				0463C77E995EC77431ADDA9B /* Info.plist */,
+				F4D56EC56825A08781EDA1DE /* ViewController.swift */,
+			);
+			name = Source;
+			path = src;
+			sourceTree = "<group>";
+		};
+		D8FEBBDA963273E2CCEF0AEB = {
+			isa = PBXGroup;
+			children = (
+				B1A67F1D735C81210AA7D4D3 /* Source */,
+				E86DFEA5079D827C90619AC2 /* Products */,
+				2DEDC455CB14FE4871BAE0DD /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		E86DFEA5079D827C90619AC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				935856344585392FDEB12A42 /* Circus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DA37DB9CADD7EBD71F4AB64 /* Circus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E6D6114E3BCFEEEE63B479 /* Build configuration list for PBXNativeTarget "Circus" */;
+			buildPhases = (
+				649BE4648537DB09462AEBEB /* Sources */,
+				544155E3CC300F8F6B97DA40 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Circus;
+			productName = Circus;
+			productReference = 935856344585392FDEB12A42 /* Circus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB5FD468226F18C1B5572A24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 1B63CCEA7547581C4FC6AF95 /* Build configuration list for PBXProject "circus" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = D8FEBBDA963273E2CCEF0AEB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DA37DB9CADD7EBD71F4AB64 /* Circus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		649BE4648537DB09462AEBEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE490B7EBF6CD8A38042AEC9 /* AppDelegate.swift in Sources */,
+				E78662BFD1D572DB003E2E7A /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFE62D26A65666E8D092D336 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = src/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Circus;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_PREFIX = "";
+			};
+			name = Default;
+		};
+		F2869A5C8230BE45E10C7EC5 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B63CCEA7547581C4FC6AF95 /* Build configuration list for PBXProject "circus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2869A5C8230BE45E10C7EC5 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+		28E6D6114E3BCFEEEE63B479 /* Build configuration list for PBXNativeTarget "Circus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE62D26A65666E8D092D336 /* Default */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB5FD468226F18C1B5572A24 /* Project object */;
+}

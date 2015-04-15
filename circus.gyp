@@ -21,11 +21,12 @@
 'INFOPLIST_FILE' : 'src/Info.plist',
 'SDKROOT': 'iphoneos',
 'TARGETED_DEVICE_FAMILY': '1,2',
-	'CODE_SIGN_IDENTITY': 'iPhone Developer',
+'CODE_SIGN_IDENTITY': 'iPhone Developer',
 'IPHONEOS_DEPLOYMENT_TARGET': '8.3',
 'ARCHS': '$(ARCHS_UNIVERSAL_IPHONE_OS)',
 'HEADER_SEARCH_PATHS': '$(inherited)',
 'CLANG_ENABLE_OBJC_ARC': 'YES',
+'LD_RUNPATH_SEARCH_PATHS': '$(inherited) @executable_path/Frameworks'
 },
 },
 ]
