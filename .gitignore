@@ -9,6 +9,9 @@ build/
 *project.xcworkspace/
 *.xcuserdatad
 
+#AppCode Noise
+.idea
+
 # OSX Noise
 .DS_Store
 
